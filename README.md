@@ -94,5 +94,6 @@ Future Work:
 
 4.Address bias and ethical concerns in sentiment classification 
 
-Authors: 
+Author: 
+
 Shradha Reddy Pulla 

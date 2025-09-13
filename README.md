@@ -8,7 +8,7 @@ This project applies multiple sentiment analysis techniques on Amazon product re
 
   
 
-bjectives: 
+Objectives: 
 
 Perform sentiment classification (positive, negative, neutral) on customer reviews 
 
@@ -85,9 +85,13 @@ Overall: RoBERTa outperformed other models, while VADER remained useful for quic
   
 
 Future Work: 
+
 Use GPU acceleration for large datasets 
+
 Expand to multilingual sentiment analysis 
+
 Build real-time sentiment dashboards 
+
 Address bias and ethical concerns in sentiment classification 
 
 Authors: 

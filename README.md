@@ -10,7 +10,7 @@ This project applies multiple sentiment analysis techniques on Amazon product re
 
 Objectives: 
 
-Perform sentiment classification (positive, negative, neutral) on customer reviews 
+1.Perform sentiment classification (positive, negative, neutral) on customer reviews 
 
 Compare lexicon-based (VADER) vs. deep learning-based (RoBERTa) approaches 
 

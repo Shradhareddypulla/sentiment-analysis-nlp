@@ -12,13 +12,13 @@ Objectives:
 
 1.Perform sentiment classification (positive, negative, neutral) on customer reviews 
 
-Compare lexicon-based (VADER) vs. deep learning-based (RoBERTa) approaches 
+2.Compare lexicon-based (VADER) vs. deep learning-based (RoBERTa) approaches 
 
-Explore classical ML models (Logistic Regression, Random Forest) 
+3.Explore classical ML models (Logistic Regression, Random Forest) 
 
-Evaluate GPT/OpenAI API for sentiment scoring 
+4.Evaluate GPT/OpenAI API for sentiment scoring 
 
-Visualize results for deeper insights 
+5.Visualize results for deeper insights 
 
   
 
@@ -30,69 +30,69 @@ Reviews.csv: Amazon review dataset (sample of 10,000 reviews used for analysis)
 
 Fields include: 
 
-Id – Unique review identifier 
+1.Id – Unique review identifier 
 
-Text – Customer review text 
+2.Text – Customer review text 
 
-Score – Rating (1–5 stars) 
+3.Score – Rating (1–5 stars) 
 
   
 
 Tech Stack: 
 
-Programming: Python 
+1.Programming: Python 
 
-Libraries: Pandas, NumPy, NLTK, Transformers, Torch, Scikit-learn, Gensim, Seaborn, Matplotlib, OpenAI API 
+2.Libraries: Pandas, NumPy, NLTK, Transformers, Torch, Scikit-learn, Gensim, Seaborn, Matplotlib, OpenAI API 
 
-Environment: Jupyter Notebook / Python Script 
+3.Environment: Jupyter Notebook / Python Script 
 
   
 
 Key Features: 
 
-Data Preprocessing: Cleaning, tokenization, POS tagging, NER using NLTK 
+1.Data Preprocessing: Cleaning, tokenization, POS tagging, NER using NLTK 
 
-Lexicon-based: VADER sentiment analysis (compound, pos, neg, neu scores) 
+2.Lexicon-based: VADER sentiment analysis (compound, pos, neg, neu scores) 
 
-Transformer-based: RoBERTa (cardiffnlp/twitter-roberta-base-sentiment) for context-aware sentiment scoring 
+3.Transformer-based: RoBERTa (cardiffnlp/twitter-roberta-base-sentiment) for context-aware sentiment scoring 
 
   
 
 Classical ML: 
 
-Logistic Regression with Doc2Vec embeddings 
+1.Logistic Regression with Doc2Vec embeddings 
 
-Random Forest with TF-IDF features 
+2.Random Forest with TF-IDF features 
 
-GPT/OpenAI API: API-based sentiment scoring for comparison 
+3.GPT/OpenAI API: API-based sentiment scoring for comparison 
 
-Visualization: Correlation heatmaps, KDE plots, bar charts, pairplots 
+4.Visualization: Correlation heatmaps, KDE plots, bar charts, pairplots 
 
   
 
 Results & Insights: 
 
-VADER: Fast and interpretable but lacks contextual understanding 
+1.VADER: Fast and interpretable but lacks contextual understanding 
 
-RoBERTa: More accurate and nuanced; best at capturing context but slower 
+2.RoBERTa: More accurate and nuanced; best at capturing context but slower 
 
-Logistic Regression & Random Forest: Performed reasonably well; useful as lightweight alternatives 
+3.Logistic Regression & Random Forest: Performed reasonably well; useful as lightweight alternatives 
 
-GPT/OpenAI: Flexible but less consistent than RoBERTa on large-scale text 
+4.GPT/OpenAI: Flexible but less consistent than RoBERTa on large-scale text 
 
-Overall: RoBERTa outperformed other models, while VADER remained useful for quick baseline analysis 
+5.Overall: RoBERTa outperformed other models, while VADER remained useful for quick baseline analysis 
 
   
 
 Future Work: 
 
-Use GPU acceleration for large datasets 
+1.Use GPU acceleration for large datasets 
 
-Expand to multilingual sentiment analysis 
+2.Expand to multilingual sentiment analysis 
 
-Build real-time sentiment dashboards 
+3.Build real-time sentiment dashboards 
 
-Address bias and ethical concerns in sentiment classification 
+4.Address bias and ethical concerns in sentiment classification 
 
 Authors: 
 Shradha Reddy Pulla 
